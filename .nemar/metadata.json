@@ -1,0 +1,89 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Vangelis P. Oikonomou": {},
+    "Georgios Liaros": {},
+    "Kostantinos Georgiadis": {},
+    "Elisavet Chatzilari": {},
+    "Katerina Adam": {},
+    "Spiros Nikolopoulos": {},
+    "Ioannis Kompatsiaris": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.1602.00904",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.2068677.v1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000119",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000119",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Commission",
+      "award_number": "H2020-ICT-2014-644780"
+    }
+  ],
+  "title": "SSVEP MAMEM 1 dataset",
+  "license": "ODC-By-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "5.8 GB (49 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises 256-channel EEG recordings from 11 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects attended to flickering visual stimuli at five different frequencies (6.66–12.00 Hz) across multiple trials, with a total of 1,104 trials collected. The dataset supports comparative evaluation of signal processing algorithms and classification methods for SSVEP-based BCIs, including feature extraction techniques, spatial filtering, and machine learning classifiers.",
+  "methods_description": "EEG data were acquired using a 256-channel EGI Geodesic EEG System (GES 300) with HydroCel Geodesic Sensor Net montage at a sampling rate of 250 Hz. Subjects focused attention on a violet flickering box presented at five frequencies (6.66, 7.50, 8.57, 10.00, 12.00 Hz) for 5-second trials followed by 5-second rest periods, with 3 repetitions per frequency and 30-second inter-frequency rest intervals. Visual stimuli were presented on a 1680×1080 pixel LCD monitor (60 Hz refresh rate) using Microsoft Visual Studio 2010 with OpenGL. Leave-one-subject-out cross-validation was employed for algorithm evaluation.",
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "visual evoked potentials"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "machine learning classification"
+    }
+  ],
+  "source_hash": "04f82dcc5e1928c37086cb3d524f3104071c1e25b7de63be4a850ab7d760b885"
+}
