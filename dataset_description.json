@@ -1,5 +1,5 @@
 {
-	"Name": "MAMEM1",
+	"Name": "SSVEP MAMEM 1 dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -23,7 +23,6 @@
 		"https://dx.doi.org/10.6084/m9.figshare.2068677.v1",
 		"10.48550/arXiv.1602.00904"
 	],
-	"DatasetDOI": "doi:10.6084/m9.figshare.2068677.v1",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
