@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000119-blue)](https://doi.org/10.82901/nemar.nm000119)
+
 # SSVEP MAMEM 1 dataset
 
 SSVEP MAMEM 1 dataset.
