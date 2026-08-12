@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Oikonomou2016 – SSVEP MAMEM 1 dataset",
-  "description": "A 256-channel EEG dataset from 11 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects attended to a single flickering visual stimulus at five frequencies (6.66, 7.50, 8.57, 10.00, and 12.00 Hz) presented sequentially. The dataset comprises 1,104 trials acquired at 250 Hz sampling rate and is accompanied by a comprehensive comparative evaluation of signal processing algorithms and classifiers for SSVEP-based BCI applications.",
-  "methods_description": "EEG signals were recorded using an EGI 300 Geodesic EEG System with a 256-channel GSN-HydroCel montage at 250 Hz sampling rate. Subjects focused attention on a single magenta flickering box presented on a 22-inch LCD monitor (60 Hz refresh rate, 1680×1080 resolution). Each frequency was presented for 5-second trials followed by 5-second rest periods, repeated 3 times per frequency with 30-second inter-frequency rest intervals. Data were acquired in raw, unpreprocessed format.",
+  "description": "A 256-channel EEG dataset from 11 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects attended to flickering visual stimuli at five frequencies (6.66, 7.50, 8.57, 10.00, and 12.00 Hz) presented sequentially, with 1104 total trials recorded at 250 Hz sampling rate. This dataset was used for comparative evaluation of state-of-the-art signal processing algorithms and classification methods for SSVEP-based BCIs.",
+  "methods_description": "EEG signals were acquired using an EGI 300 Geodesic EEG System with a 256-channel GSN-HydroCel montage at 250 Hz sampling rate. Subjects focused attention on a single flickering magenta box presented on a 22-inch LCD monitor (60 Hz refresh rate, 1680x1080 resolution) at one of five target frequencies. Each trial lasted 5 seconds followed by 5 seconds of rest, with 3 repetitions per frequency and 30 seconds rest between frequencies. Sessions included an 8-trial adaptation period followed by 15 main trials. Data were recorded in raw, unpreprocessed format.",
   "license": "ODC-By-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,13 +20,10 @@
       "term": "SSVEP"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "brain-computer interface"
     },
     {
-      "term": "BCI"
+      "term": "EEG"
     },
     {
       "term": "visual evoked potentials"
@@ -39,9 +36,6 @@
     },
     {
       "term": "comparative evaluation"
-    },
-    {
-      "term": "state-of-the-art algorithms"
     },
     {
       "term": "MAMEM"
@@ -64,7 +58,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000119",
+      "identifier": "https://nemar.org/dataset/nm000119",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -81,7 +75,7 @@
     "eeg"
   ],
   "sizes": [
-    "5.8 GB (49 files)"
+    "11.0 GB (87 files)"
   ],
   "formats": [
     ".html",
@@ -92,5 +86,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "9dbcecf00efe391251c39d8bd4f2ea964309832f9ed43760f72a40d6aadc0c50"
+  "source_hash": "79da86f85aac2318d67eb1772cf1ee402c2d7ed8a49e7286be77dbc75d3edd80"
 }
