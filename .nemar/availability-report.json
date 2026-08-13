@@ -1,15 +1,70 @@
 {
   "dataset_id": "nm000119",
-  "version": "1.0.0",
-  "generated_at": "2026-07-23T01:04:41.969Z",
+  "version": "1.0.1",
+  "generated_at": "2026-08-13T03:00:46.265Z",
   "source": null,
-  "complete": true,
+  "complete": false,
   "completeness": {
-    "files_present": 48,
-    "files_declared": 48,
-    "bytes_present": 5750071988,
-    "bytes_declared": 5751212621,
-    "pct_bytes": 0.9998016708692293
+    "files_present": 86,
+    "files_declared": 95,
+    "bytes_present": 11001583545,
+    "bytes_declared": 12255767728,
+    "pct_bytes": 0.8976658002309686
   },
-  "missing": []
+  "missing": [
+    {
+      "path": "sourcedata/27922059",
+      "key": "SHA256E-s136015933--884415d9ea44781d83d86963f5eb4dd3d3ab8fae62fa0d906cd679706a54c11e",
+      "declared_size": 136015933,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922092",
+      "key": "SHA256E-s142158466--4e2aaa732e17ec8fd73b4d8abefee79c61fa5fda0e42840b385dffde891afb0a",
+      "declared_size": 142158466,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922095",
+      "key": "SHA256E-s138981184--04b956c68a0ac96c99e9404bf0134778ffd7acc2c0c7ff036c38f16dd135a79b",
+      "declared_size": 138981184,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922104",
+      "key": "SHA256E-s139082790--76be810941c48d02b7269753d60ee335371f0deb703b42ed29f287b10ed69727",
+      "declared_size": 139082790,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922110",
+      "key": "SHA256E-s141237219--503258b0b1bbbbd28347d85074c630e58ea9e03bf6c3ce9493ebf10e20844ff3",
+      "declared_size": 141237219,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922122",
+      "key": "SHA256E-s137936092--f93fb277cfd92a07965c634bee318b422d4f519eed24fad0b9fa71456b5a0a21",
+      "declared_size": 137936092,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922125",
+      "key": "SHA256E-s137989009--e7771cd1636f00871c47bd7e19581468698f2c6d5dbf4586ec937fa2d700fe98",
+      "declared_size": 137989009,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922128",
+      "key": "SHA256E-s139533750--f83ff48d9032f44f0e1d37dae41e68c683db968ee705fc1d0c875d504c09edff",
+      "declared_size": 139533750,
+      "reason": "absent"
+    },
+    {
+      "path": "sourcedata/27922134",
+      "key": "SHA256E-s140101220--e8496f43b80edea739f5bdb83b7f3896de106211fb9b535218fb25e30ae766c1",
+      "declared_size": 140101220,
+      "reason": "absent"
+    }
+  ]
 }
