@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Oikonomou2016 – SSVEP MAMEM 1 dataset",
   "description": "A 256-channel EEG dataset from 11 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects attended to flickering visual stimuli at five frequencies (6.66, 7.50, 8.57, 10.00, and 12.00 Hz) presented sequentially, with 1104 total trials recorded at 250 Hz sampling rate. This dataset was used for comparative evaluation of state-of-the-art signal processing algorithms and classification methods for SSVEP-based BCIs.",
-  "methods_description": "EEG signals were acquired using an EGI 300 Geodesic EEG System with a 256-channel GSN-HydroCel montage at 250 Hz sampling rate. Subjects focused attention on a single flickering magenta box presented on a 22-inch LCD monitor (60 Hz refresh rate, 1680x1080 resolution) at one of five target frequencies. Each trial lasted 5 seconds followed by 5 seconds of rest, with 3 repetitions per frequency and 30 seconds rest between frequencies. Sessions included an 8-trial adaptation period followed by 15 main trials. Data were recorded in raw, unpreprocessed format.",
+  "methods_description": "EEG signals were acquired using an EGI 300 Geodesic EEG System with a 256-channel GSN-HydroCel montage at 250 Hz sampling rate. Subjects focused attention on a single violet flickering box presented on a 22-inch LCD monitor (60 Hz refresh rate, 1680x1080 resolution). Each trial consisted of 5 seconds of visual stimulation at a single frequency followed by 5 seconds of rest, with 3 repetitions per frequency and 30 seconds rest between frequencies. Data were acquired in raw, unpreprocessed format.",
   "license": "ODC-By-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,12 +33,6 @@
     },
     {
       "term": "classification algorithms"
-    },
-    {
-      "term": "comparative evaluation"
-    },
-    {
-      "term": "MAMEM"
     }
   ],
   "related_identifiers": [
@@ -75,7 +69,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.0 GB (87 files)"
+    "12.3 GB (96 files)"
   ],
   "formats": [
     ".html",
@@ -86,5 +80,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "79da86f85aac2318d67eb1772cf1ee402c2d7ed8a49e7286be77dbc75d3edd80"
+  "source_hash": "b26ef8e86f9269b155728aa68b763756f02877503dca2fa9added4f943f0cfda"
 }
