@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Oikonomou2016 – SSVEP MAMEM 1 dataset",
-  "description": "A 256-channel EEG dataset from 11 healthy subjects performing a steady-state visually evoked potential (SSVEP) brain-computer interface task. Subjects attended to flickering visual stimuli at five frequencies (6.66, 7.50, 8.57, 10.00, and 12.00 Hz) presented sequentially, with 1104 total trials recorded at 250 Hz sampling rate. This dataset was used for comparative evaluation of state-of-the-art signal processing algorithms and classification methods for SSVEP-based BCIs.",
-  "methods_description": "EEG signals were acquired using an EGI 300 Geodesic EEG System with a 256-channel GSN-HydroCel montage at 250 Hz sampling rate. Subjects focused attention on a single violet flickering box presented on a 22-inch LCD monitor (60 Hz refresh rate, 1680x1080 resolution). Each trial consisted of 5 seconds of visual stimulation at a single frequency followed by 5 seconds of rest, with 3 repetitions per frequency and 30 seconds rest between frequencies. Data were acquired in raw, unpreprocessed format.",
+  "description": "A dataset of 256-channel EEG recordings from 11 healthy adults performing an SSVEP-based brain-computer interface protocol. Participants viewed a single flickering box at five stimulation frequencies (6.66, 7.50, 8.57, 10.00 and 12.00 Hz) while signals were recorded with an EGI 300 Geodesic EEG System at 250 Hz. The data support comparative evaluation of SSVEP signal processing and classification algorithms.",
+  "methods_description": "EEG was recorded with an EGI GES 300 amplifier and a 256-channel HydroCel Geodesic Sensor Net at 250 Hz. Each session included rest, an adaptation period, and 5-second flickering windows at each of five frequencies, with rest periods between windows. Stimuli were shown as a magenta flickering box on a 22-inch, 60 Hz LCD monitor.",
   "license": "ODC-By-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,22 +17,22 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "SSVEP"
     },
     {
       "term": "brain-computer interface"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "visual evoked potentials"
     },
     {
-      "term": "signal processing"
+      "term": "steady-state visual stimulation"
     },
     {
-      "term": "classification algorithms"
+      "term": "algorithm benchmarking"
     }
   ],
   "related_identifiers": [
@@ -44,7 +44,7 @@
     {
       "identifier": "10.6084/m9.figshare.2068677.v1",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000119",
@@ -55,12 +55,26 @@
       "identifier": "https://nemar.org/dataset/nm000119",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "European Commission",
+      "funder_name": "European Commission (Horizon 2020)",
       "award_number": "H2020-ICT-2014-644780"
+    },
+    {
+      "funder_name": "European Commission",
+      "award_number": "H2020-ICT-2014-644780 (MAMEM)"
     }
   ],
   "resource_type_general": "Dataset",
@@ -69,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "12.3 GB (96 files)"
+    "11.41 GB (96 files)"
   ],
   "formats": [
     ".html",
