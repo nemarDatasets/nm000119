@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Oikonomou2016 – SSVEP MAMEM 1 dataset",
-  "description": "A dataset of 256-channel EEG recordings from 11 healthy adults performing an SSVEP-based brain-computer interface protocol. Participants viewed a single flickering box at five stimulation frequencies (6.66, 7.50, 8.57, 10.00 and 12.00 Hz) while signals were recorded with an EGI 300 Geodesic EEG System at 250 Hz. The data support comparative evaluation of SSVEP signal processing and classification algorithms.",
-  "methods_description": "EEG was recorded with an EGI GES 300 amplifier and a 256-channel HydroCel Geodesic Sensor Net at 250 Hz. Each session included rest, an adaptation period, and 5-second flickering windows at each of five frequencies, with rest periods between windows. Stimuli were shown as a magenta flickering box on a 22-inch, 60 Hz LCD monitor.",
+  "description": "A dataset of 256-channel EEG recordings from 11 healthy adults performing an SSVEP-based BCI protocol. Participants viewed a single flickering magenta box at five stimulation frequencies (6.66, 7.50, 8.57, 10.00 and 12.00 Hz) while EEG was recorded at 250 Hz. The data support comparative evaluation of state-of-the-art SSVEP signal-processing and classification algorithms.",
+  "methods_description": "EEG was recorded with an EGI 300 Geodesic EEG System and a 256-channel HydroCel Geodesic Sensor Net at 250 Hz. Each session consisted of 100 s of rest, an adaptation period of eight 5 s flicker windows, and then three 5 s flicker windows for each of the five frequencies in ascending order, separated by rest periods. The stimulus was a flickering box shown on a 60 Hz LCD monitor.",
   "license": "ODC-By-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,10 +29,7 @@
       "term": "visual evoked potentials"
     },
     {
-      "term": "steady-state visual stimulation"
-    },
-    {
-      "term": "algorithm benchmarking"
+      "term": "steady-state visually evoked potentials"
     }
   ],
   "related_identifiers": [
@@ -71,10 +68,6 @@
     {
       "funder_name": "European Commission (Horizon 2020)",
       "award_number": "H2020-ICT-2014-644780"
-    },
-    {
-      "funder_name": "European Commission",
-      "award_number": "H2020-ICT-2014-644780 (MAMEM)"
     }
   ],
   "resource_type_general": "Dataset",
@@ -94,5 +87,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b26ef8e86f9269b155728aa68b763756f02877503dca2fa9added4f943f0cfda"
+  "source_hash": "d45e5f2142aab6d5eab7ec7887f3630340206099041f7ef992d0848587073f49"
 }
