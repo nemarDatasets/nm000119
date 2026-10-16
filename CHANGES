@@ -1,0 +1,5 @@
+1.0.4 2026-10-16
+  - sourcedata: added figshare_filelist_2068677.json (14,607 bytes), the figshare file list of article 2068677
+    (api.figshare.com/v2/articles/2068677/files) as moabb.datasets.MAMEM1 caches it. The loader reads it
+    before anything else to map file names to figshare ids and md5 checksums; listed without a subject.
+    No existing file changed; the BIDS tree is unchanged.
