@@ -8,8 +8,8 @@
  "license": "ODC-By-1.0",
  "doi": "10.48550/arXiv.1602.00904",
  "naming": "upstream_filenames_restored",
- "n_files": 47,
- "total_bytes": 6504547220,
+ "n_files": 48,
+ "total_bytes": 6504561827,
  "files": [
   {
    "file": "27901941",
@@ -292,7 +292,24 @@
    "bytes": 140101220,
    "sha256": "e8496f43b80edea739f5bdb83b7f3896de106211fb9b535218fb25e30ae766c1",
    "subject": "11"
+  },
+  {
+   "file": "figshare_filelist_2068677.json",
+   "bytes": 14607,
+   "sha256": "8d50a18dcded600fb4b64c1e7dbbc132b2e638c21283a551da4e01f36ecd28a3",
+   "subject": null,
+   "url": "https://api.figshare.com/v2/articles/2068677/files",
+   "how": "loader index: json.dump(moabb.datasets.download.fs_get_file_list(2068677)), the file MAMEM1._load_or_fetch_filelist() reads from its cache root before calling the figshare API; retrieved 2026-10-16"
   }
  ],
- "n_subjects_recorded": 11
+ "n_subjects_recorded": 11,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.4",
+   "added_files": 1,
+   "added_bytes": 14607,
+   "note": "Added figshare_filelist_2068677.json: json.dump(moabb.datasets.download.fs_get_file_list(2068677)), i.e. exactly the file MAMEM1._load_or_fetch_filelist() writes to its cache root (MNE-mamem1-data/, the upstream_cache_root of this deposit) and reads before calling https://api.figshare.com/v2/articles/2068677/files. Retrieved 2026-10-16 from the figshare API. It lists 50 files; every one of the 47 data files in this deposit appears in it under its id with the same size and the subject the loader derives from the name, and every file the loader requests for subjects 1-11 is in this deposit. Subject-less entry: shared by every subject's load."
+  }
+ ]
 }
